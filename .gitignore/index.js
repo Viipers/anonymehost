@@ -18,5 +18,6 @@ bot.on('message', message => {
            message.channel.send(`${say}`, {disableEveryone: false})
            message.delete()
         console.log(`**${message.author.username} : ** a utilisé la commande anonyme sur ${message.guild.name} voici son message: \`${say}\``)
+   bot.guilds.get('396360744687370242').channels.get('398820566070460426').send(`**${message.author.username} : ** a utilisé la commande anonyme sur ${message.guild.name} voici son message: \`${say}\``);
       }
 });
