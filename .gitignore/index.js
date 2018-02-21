@@ -10,7 +10,7 @@ bot.on('ready', () => {
     console.log("Bot Ready");
 });
 
-bot.login('Mzk0MjgwNTYyNjQ4NDE2MjU2.DSCB9A.91HTreeEvLnaEH-8hIm4uQIgHR4');
+bot.login(process.env.TOKEN);
 
 bot.on('message', message => {
     if (message.content.startsWith(prefix+'anonyme')) {
